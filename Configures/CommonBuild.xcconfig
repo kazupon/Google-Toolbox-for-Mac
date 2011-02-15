@@ -1,0 +1,20 @@
+//   
+//  CommonBuild.xcconfig
+//  GTMiOS
+//  
+//  Created by kazuya kawaguchi on 2011-02-16
+//  Copyright 2011 kazuya kawaguchi All rights reserved.
+//  
+
+OTHER_LDFLAGS = -ObjC
+PRODUCT_NAME = GTMiOS
+
+FRAMEWORK_SEARCH_PATHS = 
+HEADER_SEARCH_PATHS = 
+LIBRARY_SEARCH_PATHS = 
+
+GCC_ENABLE_OBJC_GC = unsupported
+GCC_C_LANGUAGE_STANDARD = c99
+//OTHER_CFLAGS = 
+OTHER_CPLUSPLUSFLAGS = $(OTHER_CFLAGS)
+GCC_PREFIX_HEADER = $(PRODUCT_NAME)_Prefix.pch

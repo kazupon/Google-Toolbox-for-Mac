@@ -1,0 +1,19 @@
+//   
+//  iPhoneSimulatorBuild.xcconfig
+//  GTMiOS
+//  
+//  Created by kazuya kawaguchi on 2011-02-16
+//  Copyright 2011 kazuya kawaguchi All rights reserved.
+//  
+
+#include "./CommonBuild.xcconfig"
+
+ARCHS = i386
+SDKROOT = iphonesimulator
+ONLY_ACTIVE_ARCH = NO
+VALID_ARCHS = i386
+
+CODE_SIGN_IDENTITY = 
+CODE_SIGN_RESOURCE_RULES_PATH = 
+OTHER_CODE_SIGN_FLAGS = 
+

@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* GTMiOS_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* GTMiOS_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		CBA79F38130AFB9900CF7741 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA79F36130AFB9900CF7741 /* GTMDefines.h */; };
+		CBA79F39130AFB9900CF7741 /* GTMiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA79F37130AFB9900CF7741 /* GTMiOS.h */; };
+		CBA79F44130AFC0E00CF7741 /* GTMGarbageCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA79F3A130AFC0E00CF7741 /* GTMGarbageCollection.h */; };
+		CBA79F45130AFC0E00CF7741 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA79F3B130AFC0E00CF7741 /* GTMNSString+HTML.h */; };
+		CBA79F46130AFC0E00CF7741 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA79F3C130AFC0E00CF7741 /* GTMNSString+HTML.m */; };
+		CBA79F47130AFC0E00CF7741 /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA79F3D130AFC0E00CF7741 /* GTMNSString+URLArguments.h */; };
+		CBA79F48130AFC0E00CF7741 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA79F3E130AFC0E00CF7741 /* GTMNSString+URLArguments.m */; };
+		CBA79F49130AFC0E00CF7741 /* GTMObjectSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA79F3F130AFC0E00CF7741 /* GTMObjectSingleton.h */; };
+		CBA79F4A130AFC0E00CF7741 /* GTMRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA79F40130AFC0E00CF7741 /* GTMRegex.h */; };
+		CBA79F4B130AFC0E00CF7741 /* GTMRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA79F41130AFC0E00CF7741 /* GTMRegex.m */; };
+		CBA79F4C130AFC0E00CF7741 /* GTMStringEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA79F42130AFC0E00CF7741 /* GTMStringEncoding.h */; };
+		CBA79F4D130AFC0E00CF7741 /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA79F43130AFC0E00CF7741 /* GTMStringEncoding.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* GTMiOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMiOS_Prefix.pch; sourceTree = "<group>"; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBA79F28130AFA2A00CF7741 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Resources/Info.plist"; sourceTree = "<absolute>"; };
+		CBA79F36130AFB9900CF7741 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/GTMDefines.h"; sourceTree = "<absolute>"; };
+		CBA79F37130AFB9900CF7741 /* GTMiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMiOS.h; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/GTMiOS.h"; sourceTree = "<absolute>"; };
+		CBA79F3A130AFC0E00CF7741 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMGarbageCollection.h; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMGarbageCollection.h"; sourceTree = "<absolute>"; };
+		CBA79F3B130AFC0E00CF7741 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMNSString+HTML.h"; sourceTree = "<absolute>"; };
+		CBA79F3C130AFC0E00CF7741 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMNSString+HTML.m"; sourceTree = "<absolute>"; };
+		CBA79F3D130AFC0E00CF7741 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMNSString+URLArguments.h"; sourceTree = "<absolute>"; };
+		CBA79F3E130AFC0E00CF7741 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMNSString+URLArguments.m"; sourceTree = "<absolute>"; };
+		CBA79F3F130AFC0E00CF7741 /* GTMObjectSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMObjectSingleton.h; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMObjectSingleton.h"; sourceTree = "<absolute>"; };
+		CBA79F40130AFC0E00CF7741 /* GTMRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMRegex.h; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMRegex.h"; sourceTree = "<absolute>"; };
+		CBA79F41130AFC0E00CF7741 /* GTMRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMRegex.m; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMRegex.m"; sourceTree = "<absolute>"; };
+		CBA79F42130AFC0E00CF7741 /* GTMStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMStringEncoding.h; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMStringEncoding.h"; sourceTree = "<absolute>"; };
+		CBA79F43130AFC0E00CF7741 /* GTMStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMStringEncoding.m; path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Foundation/GTMStringEncoding.m"; sourceTree = "<absolute>"; };
+		D2AAC07E0554694100DB518D /* libGTMiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGTMiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libGTMiOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* GTMiOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBA79F27130AFA0600CF7741 /* Sources */,
+				CBA79F26130AF9FC00CF7741 /* Resources */,
+				AA747D9E0F9514B9006C5449 /* GTMiOS_Prefix.pch */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = GTMiOS;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA79F26130AF9FC00CF7741 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBA79F28130AFA2A00CF7741 /* Info.plist */,
+			);
+			name = Resources;
+			path = "/Users/kazupon/Projects/bluebridge/apple/dev/Google-Toolbox-for-Mac/Resources";
+			sourceTree = "<absolute>";
+		};
+		CBA79F27130AFA0600CF7741 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CBA79F3A130AFC0E00CF7741 /* GTMGarbageCollection.h */,
+				CBA79F3B130AFC0E00CF7741 /* GTMNSString+HTML.h */,
+				CBA79F3C130AFC0E00CF7741 /* GTMNSString+HTML.m */,
+				CBA79F3D130AFC0E00CF7741 /* GTMNSString+URLArguments.h */,
+				CBA79F3E130AFC0E00CF7741 /* GTMNSString+URLArguments.m */,
+				CBA79F3F130AFC0E00CF7741 /* GTMObjectSingleton.h */,
+				CBA79F40130AFC0E00CF7741 /* GTMRegex.h */,
+				CBA79F41130AFC0E00CF7741 /* GTMRegex.m */,
+				CBA79F42130AFC0E00CF7741 /* GTMStringEncoding.h */,
+				CBA79F43130AFC0E00CF7741 /* GTMStringEncoding.m */,
+				CBA79F36130AFB9900CF7741 /* GTMDefines.h */,
+				CBA79F37130AFB9900CF7741 /* GTMiOS.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* GTMiOS_Prefix.pch in Headers */,
+				CBA79F38130AFB9900CF7741 /* GTMDefines.h in Headers */,
+				CBA79F39130AFB9900CF7741 /* GTMiOS.h in Headers */,
+				CBA79F44130AFC0E00CF7741 /* GTMGarbageCollection.h in Headers */,
+				CBA79F45130AFC0E00CF7741 /* GTMNSString+HTML.h in Headers */,
+				CBA79F47130AFC0E00CF7741 /* GTMNSString+URLArguments.h in Headers */,
+				CBA79F49130AFC0E00CF7741 /* GTMObjectSingleton.h in Headers */,
+				CBA79F4A130AFC0E00CF7741 /* GTMRegex.h in Headers */,
+				CBA79F4C130AFC0E00CF7741 /* GTMStringEncoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* GTMiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "GTMiOS" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMiOS;
+			productName = GTMiOS;
+			productReference = D2AAC07E0554694100DB518D /* libGTMiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "GTMiOS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* GTMiOS */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* GTMiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA79F46130AFC0E00CF7741 /* GTMNSString+HTML.m in Sources */,
+				CBA79F48130AFC0E00CF7741 /* GTMNSString+URLArguments.m in Sources */,
+				CBA79F4B130AFC0E00CF7741 /* GTMRegex.m in Sources */,
+				CBA79F4D130AFC0E00CF7741 /* GTMStringEncoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/GTMiOS.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GTMiOS_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GTMiOS;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/GTMiOS.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GTMiOS_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GTMiOS;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "GTMiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "GTMiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
